@@ -1,0 +1,28 @@
+version: "3"
+
+services:
+  db:
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: mydb
+      POSTGRES_USER: myuser
+      POSTGRES_PASSWORD: mypassword
+    ports:
+      - 5432:5432
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  #web:
+  #  image: python:3.10
+  #  environment:
+  #    DEV_MODE=${DEV_MODE}
+  #  command: sh -c "pip install -r requirements.txt && python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
+  #  volumes:
+  #    - .:/app
+  #  ports:
+  #    - "8000:8000"
+  #  depends_on:
+  #    - db
+
+volumes:
+  postgres_data:
