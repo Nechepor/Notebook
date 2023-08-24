@@ -5,7 +5,7 @@
 Склонируйте репозиторий на свой компьютер:
 
 ```bash
-git clone git@github.com:Nechepor/Notebook.git
+git clone https://github.com/Nechepor/Notebook.git
 ```
 
 1. Для локального запуска проекта:
