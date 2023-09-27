@@ -5,7 +5,7 @@
 Склонируйте репозиторий на свой компьютер:
 
 ```bash
-git clone git@github.com:Nechepor/Notebook.git
+git clone https://github.com/Nechepor/Notebook.git
 ```
 
 1. Для локального запуска проекта:
@@ -55,3 +55,4 @@ cd /your/path/Notebook
    - Проверьте Чтобы docker-compose.yml не содержал в себе закомментированный web
    - Перейдите в директорию, куда склонировали проект.
    - Выполните команду docker-compose up. По дефолту, суперюзер будет с данными admin\password
+3. Информацию по api можно взять в /swagger
