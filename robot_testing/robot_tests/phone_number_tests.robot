@@ -2,7 +2,7 @@
 Library    String
 Library    OperatingSystem
 Library    Collections
-Library    ${EXECDIR}/robot_testing/robot_tests/Custom.py
+Library    ${EXECDIR}/Custom.py
 
 
 *** Keywords ***
